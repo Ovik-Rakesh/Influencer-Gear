@@ -1,0 +1,29 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+ }
+
+ /* .............header part styles.......... */
+ header {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .logo {
+     /* margin-left: 40px; */
+     letter-spacing: 0.2em;
+ }
+
+ .navlinks li {
+     display: inline-block;
+ }
+
+ .navlinks li a {
+     text-decoration: none;
+     margin: 0 15px;
+     /* margin-right: 40px; */
+ }
+
+ /* ................Header part styles ends.......... */

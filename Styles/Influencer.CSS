@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ....Header homepage style sheet....... */
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home {
+    display: flex;
+
+}
+
+.home li {
+    margin-left: 20px;
+    list-style: none;
+
+}
+
+.home li a {
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* ........Header homepage styles ends........ */
+
+/* ........ Header infu part star........ */
+article {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.btn {
+    background-color: aquamarine;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+/* ........ Header infu part ends........ */
+/* ........logo image part start........ */
+.images {
+    margin: 80px 0;
+}
+
+.logo-img {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 60%;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+
+.logo-img li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* ........logo image part ends........ */
+
+/* ...........logo part start...........*/
+div h3 {
+    /* justify-items: center;
+    margin-left: 600px; */
+    text-align: center;
+    text-shadow: 4px 5px 2px gold;
+    font-size: 40px;
+
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1.5em;
+    margin: 20px 50px;
+
+}
+
+.para-1 {
+    box-shadow: 10px 5px #888888;
+    margin: 10px 20px;
+
+}
+
+.para-2 {
+    box-shadow: 10px 5px #888888;
+    margin: 10px 20px;
+
+}
+
+.para-3 {
+    box-shadow: 10px 5px #888888;
+    margin: 10px 20px;
+
+}
+
+.para-4 {
+    box-shadow: 10px 5px #888888;
+    margin: 10px 20px;
+
+}
+
+.para-5 {
+    box-shadow: 10px 5px #888888;
+    margin: 10px 20px;
+
+}
+
+.para-6 {
+    box-shadow: 10px 5px #888888;
+    margin: 10px 20px;
+
+}
+
+/* ...........logo part ends...........*/
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 1.5em;
+    margin: 40px 30px;
+}
+
+/* ................................................... */
+footer div {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.camera {
+    margin: 20px 20px;
+}
+
+.fb {
+    margin: 20px 20px;
+}
+
+.youtube {
+    margin: 20px 20px;
+}
+
+/* ................................................... */
